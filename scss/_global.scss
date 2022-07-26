@@ -1,0 +1,56 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+    }
+}
+
+
+    body {
+      //Position
+      .position {
+        &-relative {
+          position: relative;
+        }
+        &-absolute {
+          position: absolute;
+        }
+        &-fixed {
+          position: fixed;
+        }
+      }
+    }
+
+
+// Flexbox
+.flex {
+    display: flex;
+  
+    &-fd-c {
+      flex-direction: column;
+    }
+    &-fd-r {
+      flex-direction: row;
+    }
+    &-jc-sb {
+      justify-content: space-between;
+    }
+    &-jc-se {
+      justify-content: space-evenly;
+    }
+  
+    &-jc-c {
+      justify-content: center;
+    }
+  
+    &-ai-c {
+      align-items: center;
+      place-items: center;
+    }
+  }
+  
