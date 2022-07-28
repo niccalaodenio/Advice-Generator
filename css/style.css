@@ -144,7 +144,7 @@ body .container .pattern {
   margin: 0 auto;
 }
 
-body .container button {
+body .container .bg {
   padding: 0.7rem;
   position: absolute;
   bottom: -1.2rem;
@@ -156,43 +156,43 @@ body .container button {
 }
 
 @media (max-width: 63.9375em) {
-  body .container button {
+  body .container .bg {
     left: 160px;
     padding: 0.6rem;
   }
 }
 
 @media (max-width: 37.9375em) {
-  body .container button {
-    left: 135px;
+  body .container .bg {
+    left: 140px;
     padding: 0.3rem;
     bottom: -0.9rem;
   }
 }
 
 @media (max-width: 18em) {
-  body .container button {
+  body .container .bg {
     left: 120px;
     padding: 0.3rem;
     bottom: -0.7rem;
   }
 }
 
-body .container button img {
+body .container .bg img {
   width: 19px;
   height: 19px;
   margin-bottom: -0.2rem;
 }
 
 @media (max-width: 63.9375em) {
-  body .container button img {
+  body .container .bg img {
     width: 15px;
     height: 15px;
   }
 }
 
 @media (max-width: 37.9375em) {
-  body .container button img {
+  body .container .bg img {
     width: 12px;
     height: 12px;
     margin-bottom: -0.1rem;
@@ -200,14 +200,14 @@ body .container button img {
 }
 
 @media (max-width: 18em) {
-  body .container button img {
+  body .container .bg img {
     width: 11px;
     height: 11px;
     margin-bottom: -0.1rem;
   }
 }
 
-body .container button:hover {
+body .container .bg:hover {
   -webkit-box-shadow: 0px 0px 8px 2px #52ffa8;
           box-shadow: 0px 0px 8px 2px #52ffa8;
 }
