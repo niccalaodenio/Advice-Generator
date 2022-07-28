@@ -83,13 +83,13 @@ body {
       @include breakpoint-down(small) {
         //width: 20%;
         left: 139px;
-        padding: 0.3rem;
+        padding: 0.2rem;
         bottom: -0.9rem;
       }
       @include breakpoint-down(xs) {
         //width: 20%;
         left: 120px;
-        padding: 0.3rem;
+        padding: 0.2rem;
         bottom: -0.7rem;
       } 
       img {

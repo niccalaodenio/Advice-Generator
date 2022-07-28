@@ -165,7 +165,7 @@ body .container .bg {
 @media (max-width: 37.9375em) {
   body .container .bg {
     left: 139px;
-    padding: 0.3rem;
+    padding: 0.2rem;
     bottom: -0.9rem;
   }
 }
@@ -173,7 +173,7 @@ body .container .bg {
 @media (max-width: 18em) {
   body .container .bg {
     left: 120px;
-    padding: 0.3rem;
+    padding: 0.2rem;
     bottom: -0.7rem;
   }
 }
